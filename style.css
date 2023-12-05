@@ -1,0 +1,52 @@
+@font-face {
+  font-family: font1;
+  src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+body {
+  background: hsl(275, 100%, 97%);
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: font1;
+}
+body .app-container {
+  color: hsl(292, 42%, 14%);
+  width: 90vw;
+  max-width: 450px;
+  background: hsl(0, 0%, 100%);
+  padding: 35px;
+  border-radius: 20px;
+}
+body .app-container .title {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  margin-bottom: 20px;
+}
+body .app-container .title h2 {
+  font-size: 3rem;
+  padding-left: 20px;
+}
+body .app-container .questions .question-container {
+  padding: 15px;
+}
+body .app-container .questions .question-container .question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+body .app-container .questions .question-container .question:hover {
+  cursor: pointer;
+  color: hsl(293, 51%, 52%);
+}
+body .app-container .questions .answer {
+  color: hsl(292, 42%, 14%);
+  font-size: 0.9rem;
+  line-height: 20px;
+  display: none;
+}
+body .app-container .questions .hidden {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
